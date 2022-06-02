@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="EstiloVentanaE.css">
+    <script type="text/javascript" src="MetodoJS.js"></script> 
+  </head>
+  <body>
+    <div class="center">
+      <input type="checkbox" id="show">
+      <label for="show" class="show-btn">Autenticarse</label>
+      <div class="container">
+        <label for="show" class="close-btn fas fa-times" title="close">x</label>
+        <div class="text">
+          <div class="Neon">
+LOGIN</div></div>
+<form action="ValidarDatos.php" method="post">
+          <div class="data">
+            <label>Usuario</label>
+            <input type="text" name="UsuarioLogin" required>
+          </div>
+<div class="data">
+            <label>Clave</label>
+            <input type="password" name="ClaveLogin" required>
+          </div>
+<div class="btn">
+            <div class="inner">
+</div>
+<!-- <input type="submit" name="boton" id="miBoton" value="Guardar" onclick="Autenticar()">  -->
+<button name="miBoton" type="submit" >Ingresar</button>
+          </div>
+          <div class="signup-link">
+                  Aun no registrado? <a href="Registro.php">Clic Aqui</a>
+               </div>
+</form>
+</div>
+</div>
+</body>
+</html>

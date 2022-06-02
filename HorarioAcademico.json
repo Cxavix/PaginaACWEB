@@ -1,0 +1,58 @@
+[
+    {
+        "primer_dia":"Hora",
+        "segundo_dia":"Lunes",
+        "tercer_dia":"Martes",
+        "cuarto_dia":"Miércoles",
+        "quinto_dia":"Jueves",
+        "sexto_dia":"Viernes"
+    },
+    {
+        "primer_dia": "07:30",
+        "segundo_dia": "Sistemas digitales",
+        "tercer_dia": "Desarrollo basado en plataformas",
+        "cuarto_dia": "Fundamentos de Redes de comunicaciones",
+        "quinto_dia": "Simulación",
+        "sexto_dia": "Sistemas digitales"
+    },
+    {
+        "primer_dia": "08:30",
+        "segundo_dia": "Sistemas digitales",
+        "tercer_dia": "Desarrollo basado en plataformas",
+        "cuarto_dia": "Fundamentos de Redes de comunicaciones",
+        "quinto_dia": "Simulación",
+        "sexto_dia": "Sistemas digitales"    
+    },
+    {
+        "primer_dia": "09:30",
+        "segundo_dia": "Análisis numérico",
+        "tercer_dia": "Fundamentos de Redes de comunicaciones",
+        "cuarto_dia": "Desarrollo basado en plataformas",
+        "quinto_dia": "Análisis numérico",
+        "sexto_dia": "Análisis numérico"
+    },
+    {
+        "primer_dia": "10:30",
+        "segundo_dia": "Análisis numérico",
+        "tercer_dia": "Fundamentos de Redes de comunicaciones",
+        "cuarto_dia": "Desarrollo basado en plataformas",
+        "quinto_dia": "Análisis numérico",
+        "sexto_dia": "Análisis numérico"
+    },
+    {
+        "primer_dia": "11:30",
+        "segundo_dia": "Desarrollo basado en plataformas",
+        "tercer_dia": "Sistemas digitales",
+        "cuarto_dia": "Simulación",
+        "quinto_dia": "Desarrollo basado en plataformas",
+        "sexto_dia": "Simulación"
+    },
+    {
+        "primer_dia": "12:30",
+        "segundo_dia": "Desarrollo basado en plataformas",
+        "tercer_dia": "Sistemas digitales",
+        "cuarto_dia": "Simulación",
+        "quinto_dia": "Desarrollo basado en plataformas",
+        "sexto_dia": "Simulación"
+    }
+]

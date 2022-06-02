@@ -1,0 +1,66 @@
+
+<?php 
+
+//TABLA LISTA ESTUDIANTES CON XML
+echo'<script type="text/javascript" src="MetodoJS.js"></script>';
+echo("<center><h2>Hola</h2></center>");
+
+    if(file_exists('ListaEstudiantes.xml')){
+        echo nl2br("<center>Xml Cargado</center>\n");
+        $xml=simplexml_load_file('ListaEstudiantes.xml');
+    }else{
+        echo nl2br("Error con el archivo Xml\n");
+    }
+    echo"<h3><center>Lista de Estudiantes con XML</h3></center>";
+    echo('<center><table border=1 style="width:30%" background="yellow"> ');
+    echo('<tr>');
+    echo('<th>Cedula</th>');
+    echo('<th>Nombre</th>');
+    echo('<th>Apellido</th>');                   
+    echo('</tr>');
+
+foreach ($xml->estudiante as $key => $estud) {
+
+    echo('<tr>');
+    echo('<td>');
+    echo ($estud->cedula);
+    echo('</td>');
+    echo('<td>');
+    echo ($estud->nombre);
+    echo('</td>');
+    echo('<td>');
+    echo ($estud->apellido);
+    echo('</td>');
+    echo('</tr>');
+}
+echo('</table></center>');
+echo('<br></br>');
+
+//TABLA HORARIO ACADEMICO JSON
+
+echo('<br></br>');
+
+echo"<h3><center>Horario Academico JSON XML_HTTP_REQUEST</h3></center>";
+echo"<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Document</title>
+</head>
+<body>
+
+            <center><button class='btn' id='boton'>Mostrar</button></center>
+            <br></br>
+            <table border='1px'>
+                <thead>
+                    <tbody id='res'></tbody>
+                </thead>
+            </table>
+
+<br></br>
+    <script type='text/javascript' src='MetodoJS.js'></script>
+</body>
+</html>";
+
+ ?>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Semana>
+    <Hora> 
+        <HoraL>07:30</HoraL>
+        <Materia1>Sistemas Digitales</Materia1>
+        <Materia2>Desarrollo Basado en Plataformas</Materia2>
+        <Materia3>Fundamentos de Redes de Comunicaciones</Materia3>
+        <Materia4>Simulacion</Materia4>
+        <Materia5>Sistemas Digitales</Materia5>
+    </Hora> 
+    <Hora>  
+        <HoraL>08:30</HoraL>
+        <Materia1>Sistemas Digitales</Materia1>
+        <Materia2>Desarrollo Basado en Plataformas</Materia2>
+        <Materia3>Fundamentos de Redes de Comunicaciones</Materia3>
+        <Materia4>Simulacion</Materia4>
+        <Materia5>Sistemas Digitales</Materia5>
+    </Hora> 
+    <Hora>  
+        <HoraL>09:30</HoraL>
+        <Materia1>Analisis Numerico</Materia1>
+        <Materia2>Fundamentos de Redes de Comunicaciones</Materia2>
+        <Materia3>Desarrollo Basado en Plataformas</Materia3>
+        <Materia4>Analisis Numerico</Materia4>
+        <Materia5>Analisis Numerico</Materia5>
+    </Hora> 
+    <Hora> 
+        <HoraL>10:30</HoraL>
+        <Materia1>Analisis Numerico</Materia1>
+        <Materia2>Fundamentos de Redes de Comunicaciones</Materia2>
+        <Materia3>Desarrollo Basado en Plataformas</Materia3>
+        <Materia4>Analisis Numerico</Materia4>
+        <Materia5>Analisis Numerico</Materia5>
+    </Hora> 
+    <Hora>  
+        <HoraL>11:30</HoraL>
+        <Materia1>Desarrollo Basado en Plataformas</Materia1>
+        <Materia2>Sistemas Digitales</Materia2>
+        <Materia3>Simulacion</Materia3>
+        <Materia4>Desarrollo Basado en Plataformas</Materia4>
+        <Materia5>Simulacion</Materia5>
+    </Hora>    
+    <Hora>  
+        <HoraL>12:30</HoraL>
+        <Materia1>Desarrollo Basado en Plataformas</Materia1>
+        <Materia2>Sistemas Digitales</Materia2>
+        <Materia3>Simulacion</Materia3>
+        <Materia4>Desarrollo Basado en Plataformas</Materia4>
+        <Materia5>Simulacion</Materia5>
+    </Hora>        
+</Semana>

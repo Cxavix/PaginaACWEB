@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dbp>
+    <estudiante> 
+        <cedula>1104345855</cedula>
+        <nombre>Brigith</nombre>
+        <apellido>Lojan</apellido>
+        <celular>0959020466</celular>
+    </estudiante>
+    <estudiante> 
+        <cedula>1167812216</cedula>
+        <nombre>Anddy</nombre>
+        <apellido>Camacho</apellido>
+        <celular>0980085747</celular>
+    </estudiante>
+    <estudiante> 
+        <cedula>1904278164</cedula>
+        <nombre>Luis</nombre>
+        <apellido>Cobos</apellido>
+        <celular>0981117176</celular>
+    </estudiante>
+    <estudiante> 
+        <cedula>1104334679</cedula>
+        <nombre>Edy</nombre>
+        <apellido>Jimenez</apellido>
+        <celular>0994457974</celular>
+    </estudiante> 
+    <estudiante> 
+        <cedula>1904110844</cedula>
+        <nombre>Carlos</nombre>
+        <apellido>Perez</apellido>
+        <celular>0981117176</celular>
+    </estudiante>     <estudiante> 
+        <cedula>1904111964</cedula>
+        <nombre>Maria</nombre>
+        <apellido>Jara</apellido>
+        <celular>0981117176</celular>
+    </estudiante>
+    <estudiante>
+        <cedula>1718353372</cedula>
+        <nombre>Alex</nombre>
+        <apellido>Villalta</apellido>
+        <celular>0981117177
+        </celular>
+    </estudiante>
+
+</dbp>
