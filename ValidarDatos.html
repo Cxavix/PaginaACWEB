@@ -1,6 +1,6 @@
 <?php 
 
-include("BDConectar.php");
+include("BDConectar.html");
 
 
 
@@ -16,10 +16,10 @@ $clave=$_POST["ClaveLogin"];
 
 	if($nr==1)
 	{
-		echo"<script> alert('Bienvenido'); window.location='Principal.php'</script>";
+		echo"<script> alert('Bienvenido'); window.location='Principal.html'</script>";
 	}else
 	{
-		echo"<script> alert('Usuario no encontrado'); window.location='Inicio.html'</script>";
+		echo"<script> alert('Usuario no encontrado'); window.location='index.html'</script>";
 	}
 
 }
@@ -35,7 +35,7 @@ if(isset($_POST["Enviar"]))
 
 	if(mysqli_query($conn,$sqlgrabar))
 	{
-		echo"<script> alert('Usuario Registrado con exito'); window.location='Inicio.html'</script>";
+		echo"<script> alert('Usuario Registrado con exito'); window.location='index.html'</script>";
 	}else
 	{
 		echo "Error: ".$sql."<br>".mysql_error($conn);
